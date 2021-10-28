@@ -126,7 +126,7 @@ function play() {
       const vitlaust = alert('Sláðu inn oddatölu sem er minni en 10');
     return false;
     }
-    while ((wins || losses)<=(leikirSpiladir/2)){
+    while ((wins || losses)<(leikirSpiladir/2)){
       round();
     }
     for(let i = 0; i < bestOf; i++){
